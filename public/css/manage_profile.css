@@ -1,0 +1,123 @@
+body{
+    background-color: #5b5f97;
+}
+
+*:focus{
+    outline: none;
+}
+
+.box{
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
+
+.heading span{
+    background: #ff7800;
+    color:#fff;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.icons div{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: .5rem;
+    background: #ff7800;
+    color:white;
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icons div:hover{
+    background: white;
+    color:#5b5f97;
+}
+
+img{
+    box-sizing: border-box;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin: 0;
+    border: 5px solid #ff7800;
+    padding: 3px;
+    background-color: white;
+}
+
+input[type="text"]{
+    margin-top: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"]{
+    display: block;
+    box-sizing: border-box;
+    background: none;
+    color: #ff7800;
+    margin-bottom: 30px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom:  1px solid #ff7800;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus{
+    border-bottom: 2px solid #ff7800;
+    border-bottom-right-radius: 20px;
+    color: #5b5f97;
+    transition: 0.2s ease;
+}
+
+
+button{
+    border: 1px solid #ff7800;
+    background-color: #ff7800;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: #5b5f97;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+label{
+    box-sizing: border-box;
+    font-size: 20px;
+    border: 1px solid #ff7800;
+    background-color: #ff7800;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+
+label:hover{
+    background-color: #5b5f97;
+    color: white;
+}
